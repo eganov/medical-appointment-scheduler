@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?><!--jb pycharm data start-->
+<commandInfo-array>
+    <commandInfo args="[app_label]" help="Checks the entire Django project for potential problems." name="check">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Run only checks labeled with given tag." numberOfArgs="1" type="str">
+            <longNames>--tag</longNames>
+            <shortNames>-t</shortNames>
+        </option>
+        <option help="List available tags.">
+            <longNames>--list-tags</longNames>
+        </option>
+        <option help="Check deployment settings.">
+            <longNames>--deploy</longNames>
+        </option>
+        <option help="Message level that will cause the command to exit with a non-zero status. Default is ERROR."
+                numberOfArgs="1" type="choices">
+            <choices>CRITICAL</choices>
+            <choices>ERROR</choices>
+            <choices>WARNING</choices>
+            <choices>INFO</choices>
+            <choices>DEBUG</choices>
+            <longNames>--fail-level</longNames>
+        </option>
+    </commandInfo>
+    <commandInfo args="" help="Compiles .po files to .mo files for use with builtin gettext support."
+                 name="compilemessages">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Locale(s) to process (e.g. de_AT). Default is to process all. Can be used multiple times."
+                numberOfArgs="1" type="str">
+            <longNames>--locale</longNames>
+            <shortNames>-l</shortNames>
+        </option>
+        <option help="Locales to exclude. Default is none. Can be used multiple times." numberOfArgs="1" type="str">
+            <longNames>--exclude</longNames>
+            <shortNames>-x</shortNames>
+        </option>
+        <option help="Use fuzzy translations.">
+            <longNames>--use-fuzzy</longNames>
+            <shortNames>-f</shortNames>
+        </option>
+        <option help="Ignore directories matching this glob-style pattern. Use multiple times to ignore more."
+                numberOfArgs="1" type="str">
+            <longNames>--ignore</longNames>
+            <shortNames>-i</shortNames>
+        </option>
+    </commandInfo>
+    <commandInfo args="[table_name]" help="Creates the tables needed to use the SQL cache backend."
+                 name="createcachetable">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Nominates a database onto which the cache tables will be installed. Defaults to the &quot;default&quot; database."
+                numberOfArgs="1" type="str">
+            <longNames>--database</longNames>
+        </option>
+        <option help="Does not create the table, just prints the SQL that would be run.">
+            <longNames>--dry-run</longNames>
+        </option>
+    </commandInfo>
+    <commandInfo args=""
+                 help="Runs the command-line client for specified database, or the default database if none is provided."
+                 name="dbshell">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Nominates a database onto which to open a shell. Defaults to the &quot;default&quot; database."
+                numberOfArgs="1" type="str">
+            <longNames>--database</longNames>
+        </option>
+    </commandInfo>
+    <commandInfo args="" help="Displays differences between the current settings.py and Django's
+    default settings." name="diffsettings">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Display all settings, regardless of their value. In &quot;hash&quot; mode, default values are prefixed by &quot;###&quot;.">
+            <longNames>--all</longNames>
+        </option>
+        <option help="The settings module to compare the current settings against. Leave empty to compare against Django's default settings."
+                numberOfArgs="1" type="str">
+            <longNames>--default</longNames>
+        </option>
+        <option help="Selects the output format. 'hash' mode displays each changed setting, with the settings that don't appear in the defaults followed by ###. 'unified' mode prefixes the default setting with a minus sign, followed by the changed setting prefixed with a plus sign."
+                numberOfArgs="1" type="str">
+            <longNames>--output</longNames>
+        </option>
+    </commandInfo>
+    <commandInfo args="[app_label[.ModelName]]"
+                 help="Output the contents of the database as a fixture of the given format (using each model's default manager unless --all is specified)."
+                 name="dumpdata">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Skip system checks.">
+            <longNames>--skip-checks</longNames>
+        </option>
+        <option help="Specifies the output serialization format for fixtures." numberOfArgs="1" type="str">
+            <longNames>--format</longNames>
+        </option>
+        <option help="Specifies the indent level to use when pretty-printing output." numberOfArgs="1" type="str">
+            <longNames>--indent</longNames>
+        </option>
+        <option help="Nominates a specific database to dump fixtures from. Defaults to the &quot;default&quot; database."
+                numberOfArgs="1" type="str">
+            <longNames>--database</longNames>
+        </option>
+        <option help="An app_label or app_label.ModelName to exclude (use multiple --exclude to exclude multiple apps/models)."
+                numberOfArgs="1" type="str">
+            <longNames>--exclude</longNames>
+            <shortNames>-e</shortNames>
+        </option>
+        <option help="Use natural foreign keys if they are available.">
+            <longNames>--natural-foreign</longNames>
+        </option>
+        <option help="Use natural primary keys if they are available.">
+            <longNames>--natural-primary</longNames>
+        </option>
+        <option help="Use Django's base manager to dump all models stored in the database, including those that would otherwise be filtered or modified by a custom manager.">
+            <longNames>--all</longNames>
+            <shortNames>-a</shortNames>
+        </option>
+        <option help="Only dump objects with given primary keys. Accepts a comma-separated list of keys. This option only works when you specify one model."
+                numberOfArgs="1" type="str">
+            <longNames>--pks</longNames>
+        </option>
+        <option help="Specifies file to which the output is written." numberOfArgs="1" type="str">
+            <longNames>--output</longNames>
+            <shortNames>-o</shortNames>
+        </option>
+    </commandInfo>
+    <commandInfo args=""
+                 help="Removes ALL DATA from the database, including data added during migrations. Does not achieve a &quot;fresh install&quot; state."
+                 name="flush">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Skip system checks.">
+            <longNames>--skip-checks</longNames>
+        </option>
+        <option help="Tells Django to NOT prompt the user for input of any kind.">
+            <longNames>--no-input</longNames>
+            <longNames>--noinput</longNames>
+        </option>
+        <option help="Nominates a database to flush. Defaults to the &quot;default&quot; database." numberOfArgs="1"
+                type="str">
+            <longNames>--database</longNames>
+        </option>
+    </commandInfo>
+    <commandInfo args="[table]"
+                 help="Introspects the database tables in the given database and outputs a Django model module."
+                 name="inspectdb">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Nominates a database to introspect. Defaults to using the &quot;default&quot; database."
+                numberOfArgs="1" type="str">
+            <longNames>--database</longNames>
+        </option>
+        <option help="Also output models for partition tables.">
+            <longNames>--include-partitions</longNames>
+        </option>
+        <option help="Also output models for database views.">
+            <longNames>--include-views</longNames>
+        </option>
+    </commandInfo>
+    <commandInfo args="[fixture]" help="Installs the named fixture(s) in the database." name="loaddata">
+        <option help="show this help message and exit" numberOfArgs="1" type="str">
+            <longNames>--help</longNames>
+            <shortNames>-h</shortNames>
+        </option>
+        <option help="show program's version number and exit" numberOfArgs="1" type="str">
+            <longNames>--version</longNames>
+        </option>
+        <option help="Verbosity level; 0=minimal output, 1=normal output, 2=verbose output, 3=very verbose output"
+                numberOfArgs="1" type="choices">
+            <choices>0</choices>
+            <choices>1</choices>
+            <choices>2</choices>
+            <choices>3</choices>
+            <longNames>--verbosity</longNames>
+            <shortNames>-v</shortNames>
+        </option>
+        <option help="The Python path to a settings module, e.g. &quot;myproject.settings.main&quot;. If this isn't provided, the DJANGO_SETTINGS_MODULE environment variable will be used."
+                numberOfArgs="1" type="str">
+            <longNames>--settings</longNames>
+        </option>
+        <option help="A directory to add to the Python path, e.g. &quot;/home/djangoprojects/myproject&quot;."
+                numberOfArgs="1" type="str">
+            <longNames>--pythonpath</longNames>
+        </option>
+        <option help="Raise on CommandError exceptions">
+            <longNames>--traceback</longNames>
+        </option>
+        <option help="Don't colorize the command output.">
+            <longNames>--no-color</longNames>
+        </option>
+        <option help="Force colorization of the command output.">
+            <longNames>--force-color</longNames>
+        </option>
+        <option help="Skip system checks.">
+            <longNames>--skip-checks</longNames>
+        </option>
+        <option help="Nominates a specific database to load fixtures into. Defaults to the &quot;default&quot; database."
+                numberOfArgs="1" type="str">
+            <longNames>--database</longNames>
+        </option>
+        <option help="Only look for fixtures in the specified app." numberOfArgs="1" type="str">
+            <longNames>--app</longNames>
+        </option>
+        <option help="Ignores entries in the serialized data for fields that do not currently exist on the model.">
+            <longNames>--ignorenonexistent</longNames>
+            <shortNames>-i</shortNames>
+        </option>
+        <option help="An app_label or app_label.ModelName to exclude. Can be used multiple times." numberOfArgs="1"
+                type="str">
+            <longNames>--exclude</longNames>
+            <shortNames>-e</shortNames>
+        </option>
+        <option help="Format of serialized data when reading from stdin." numberOfArgs="1" type="str">
+            <longNames>--format</longNames>
+        </option>
+    </commandInfo>
+    <commandInfo args=""
+                 help="Runs over the entire source tree of the current directory and pulls out all strings marked for translation. It creates (or updates) a message file in the conf/locale (in the django tree) or locale (for projects and applications) directory.">
+    </commandInfo>
+</commandInfo-array>
